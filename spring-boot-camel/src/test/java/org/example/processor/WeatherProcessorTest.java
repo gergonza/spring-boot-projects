@@ -27,7 +27,7 @@ class WeatherProcessorTest extends CamelTestSupport {
     }
 
     @Test
-    public void testSendMessage() throws Exception {
+    void testSendMessage() throws Exception {
         // Get Json Request from Resources Folder
         Path resourceDir = of(EMPTY, "src/test/resources");
         Path file = resourceDir.resolve("request.json");

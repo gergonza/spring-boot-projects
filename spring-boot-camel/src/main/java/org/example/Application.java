@@ -1,7 +1,9 @@
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+package org.example;
 
 import static org.springframework.boot.SpringApplication.run;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * Spring Boot Main Method.
@@ -16,7 +18,7 @@ import static org.springframework.boot.SpringApplication.run;
 public class Application {
 
     /**
-     * Method that launches the Application.
+     * Method that launches the org.example.Application.
      *
      * @param args Shell Arguments to be passed to the invocation
      *
