@@ -1,0 +1,18 @@
+weather:
+  location: Madrid,Spain
+  unit: METRIC # Metric: Celsius, Imperial: Fahrenheit, Standard: Kelvin, default to Standard
+  appId: #Clave de Open Weather (watch site http://openweathermap.org)
+  destination:
+    route: file:/Users/germangonzalez/Desktop
+    file: madrid.txt
+  date:
+    format: yyyy-MM-dd HH:mm:ss
+
+timer:
+  period: 60s
+  delay: 5s
+
+logging:
+  level:
+    org:
+      example: DEBUG
