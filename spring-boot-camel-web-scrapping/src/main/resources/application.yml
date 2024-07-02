@@ -1,0 +1,13 @@
+web-scraping:
+  count: 1
+  web: https://example.com
+  search-expression: /html/body/div/p/a
+  asked-property: href
+  destination:
+    route: file:/Users/germangonzalez/Desktop
+    file: web.txt
+
+logging:
+  level:
+    org:
+      example: DEBUG
